@@ -1,0 +1,13 @@
+.git
+.github
+.gitignore
+.Rhistory
+docs
+README.md
+LICENSE
+tests
+_quarto.yml
+preview.jpg
+index.qmd
+custom.lua
+
