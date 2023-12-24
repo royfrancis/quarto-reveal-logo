@@ -1,0 +1,71 @@
+---
+title: reveal-logo
+subtitle: Add logos to revealjs
+author: Roy Francis
+date: last-modified
+date-format: DD-MMM-YYYY
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-left-url: https://royfrancis.com/reveal-logo
+    header-logo-right: ../reveal.svg
+    header-logo-right-url: https://revealjs.com
+engine: knitr
+---
+
+## Install
+
+- Requires Quarto >=1.2.0
+- Install extension to root of the project
+
+```bash
+quarto add royfrancis/reveal-logo
+```
+
+## Usage
+
+- Add to filters in yaml metadata
+
+```yaml
+filters:
+  - reveal-logo
+```
+
+## Usage
+
+- Add parameters to `format: revealjs`.
+
+::: {style="font-size:2rem;"}
+
+|Parameter|Description|
+|---|---|
+|`header-logo-left`|Add a logo to top left|
+|`header-logo-right`|Add a logo to top right|
+|`header-logo-left-height`|Height of left logo in css units|
+|`header-logo-right-height`|Height of right logo in css units|
+|`header-logo-left-url`|Add a clickable link to the left logo|
+|`header-logo-right-url`|Add a clickable link to the right logo|
+
+:::
+
+## Example
+
+- Example with all options
+
+```yaml
+format:
+  revealjs:
+    header-logo-left: quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+    header-logo-right: reveal.svg
+    header-logo-right-url: https://revealjs.com
+    header-logo-right-height: 50px
+```
+
+## Acknowledgements
+
+- [Quarto](https://quarto.org)
+- [shafayetShafee/reveal-header](https://github.com/shafayetShafee/reveal-header)
+
+

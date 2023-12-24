@@ -1,0 +1,14 @@
+---
+subtitle: Logo on right with URL
+format:
+  revealjs:
+    header-logo-right: ../reveal.svg
+    header-logo-right-url: https://revealjs.com
+---
+
+```
+format:
+  revealjs:
+    header-logo-right: ../reveal.svg
+    header-logo-right-url: https://revealjs.com
+```

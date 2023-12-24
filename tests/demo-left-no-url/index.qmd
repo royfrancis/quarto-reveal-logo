@@ -1,0 +1,12 @@
+---
+subtitle: Logo on left with no URL
+format:
+  revealjs:
+    header-logo-left: ../reveal.svg
+---
+
+```
+format:
+  revealjs:
+    header-logo-left: ../reveal.svg
+```

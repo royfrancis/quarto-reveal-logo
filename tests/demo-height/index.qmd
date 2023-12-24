@@ -1,0 +1,22 @@
+---
+subtitle: Both logos with custom heights
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+    header-logo-right: ../reveal.svg
+    header-logo-right-url: https://revealjs.com
+    header-logo-right-height: 50px
+---
+
+```
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+    header-logo-right: ../reveal.svg
+    header-logo-right-url: https://revealjs.com
+    header-logo-right-height: 50px
+```

@@ -1,0 +1,16 @@
+---
+subtitle: Left logo with custom height and URL
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+---
+
+```
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+```

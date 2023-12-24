@@ -1,0 +1,17 @@
+---
+title: Three logos in RevealJS
+subtitle: With default logo in RevealJS
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-right: ../reveal.svg
+    logo: ../quarto.png
+---
+
+```
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-right: ../reveal.svg
+    logo: ../quarto.png
+```

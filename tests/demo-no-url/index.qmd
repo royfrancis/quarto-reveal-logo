@@ -1,0 +1,14 @@
+---
+subtitle: Both logos but no URL
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-right: ../reveal.svg
+---
+
+```
+format:
+  revealjs:
+    header-logo-left: ../quarto.png
+    header-logo-right: ../reveal.svg
+```

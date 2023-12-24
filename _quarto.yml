@@ -1,0 +1,28 @@
+project: 
+  type: website
+  output-dir: docs
+
+website:
+  page-footer:
+    border: false
+    left: "2024 Roy Francis | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
+    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
+  site-url: "https://royfrancis.github.io/reveal-logo/"
+
+format:
+  html:
+    engine: knitr
+    title-block-banner: true
+    title: reveal-logo
+    subtitle: Add logos to revealjs presentation
+    description: A quarto extension to add logos to revealjs presentation
+    author: Roy Francis
+  revealjs:
+    engine: knitr
+    title: reveal-logo
+    subtitle: Add logos to revealjs presentation
+    description: A quarto extension to add logos to revealjs presentation
+
+filters:
+  - reveal-logo
+  - custom.lua

@@ -1,0 +1,75 @@
+---
+title: reveal-logo
+author: Roy Francis
+date: last-modified
+date-format: DD-MMM-YYYY
+format: html
+engine: knitr
+---
+
+## Demo
+
+[![](preview.jpg)](tests/demo/index.html)
+
+[Demo presentation](tests/demo/index.html)
+
+## Install
+
+Install extension to root of the project. Requires Quarto >=1.2.0.
+
+```{bash}
+#| eval: false
+#| filename: bash
+quarto add royfrancis/reveal-logo
+```
+
+## Usage
+
+Add to filters in yaml metadata
+
+```yaml
+filters:
+  - reveal-logo
+```
+
+Add parameters to `format: revealjs`.
+
+|Parameter|Description|
+|---|---|
+|`header-logo-left`|Add a logo to top left|
+|`header-logo-right`|Add a logo to top right|
+|`header-logo-left-height`|Height of left logo in css units|
+|`header-logo-right-height`|Height of right logo in css units|
+|`header-logo-left-url`|Add a clickable link to the left logo|
+|`header-logo-right-url`|Add a clickable link to the right logo|
+
+## Example
+
+Example with all options
+
+```yaml
+format:
+  revealjs:
+    header-logo-left: quarto.png
+    header-logo-left-url: https://quarto.org
+    header-logo-left-height: 2em
+    header-logo-right: reveal.svg
+    header-logo-right-url: https://revealjs.com
+    header-logo-right-height: 50px
+```
+
+## All demos
+
+- [Demo with left and right logos and no urls](tests/demo-no-url/index.html)
+- [Demo with left logo and url](tests/demo-left/index.html)
+- [Demo with left logo and no url](tests/demo-left-no-url/index.html)
+- [Demo with right logo and urls](tests/demo-right/index.html)
+- [Demo with right logo and no url](tests/demo-right-no-url/index.html)
+- [Demo with both logos and custom height](tests/demo-height/index.html)
+- [Demo with left logo and custom height](tests/demo-height/index.html)
+- [Demo with three logos](tests/demo-default/index.html)
+
+## Acknowledgements
+
+- [Quarto](https://quarto.org)
+- [shafayetShafee/reveal-header](https://github.com/shafayetShafee/reveal-header)
