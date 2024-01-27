@@ -47,4 +47,4 @@ For more information, click [here](https://royfrancis.github.io/quarto-reveal-lo
 
 ---
 
-2024 | Roy Francis
+2024 • Roy Francis

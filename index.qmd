@@ -20,7 +20,7 @@ Install extension to root of the project. Requires Quarto >=1.2.0.
 ```{bash}
 #| eval: false
 #| filename: bash
-quarto add royfrancis/reveal-logo
+quarto add royfrancis/quarto-reveal-logo
 ```
 
 ## Usage

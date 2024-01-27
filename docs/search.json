@@ -18,7 +18,7 @@
     "href": "index.html#install",
     "title": "reveal-logo",
     "section": "Install",
-    "text": "Install\nInstall extension to root of the project. Requires Quarto &gt;=1.2.0.\n\n\n\nbash\n\nquarto add royfrancis/reveal-logo"
+    "text": "Install\nInstall extension to root of the project. Requires Quarto &gt;=1.2.0.\n\n\n\nbash\n\nquarto add royfrancis/quarto-reveal-logo"
   },
   {
     "objectID": "index.html#usage",

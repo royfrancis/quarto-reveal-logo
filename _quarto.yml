@@ -5,7 +5,7 @@ project:
 website:
   page-footer:
     border: false
-    left: "2024 Roy Francis"
+    left: "2024 • Roy Francis"
     right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
   site-url: "https://royfrancis.github.io/reveal-logo/"
 
