@@ -15,7 +15,7 @@ A quarto extension to add logos to revealjs presentation
 - Run in the terminal
 
 ```
-quarto add royfrancis/reveal-logo
+quarto add royfrancis/quarto-reveal-logo
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ filters:
 |`header-logo-left-url`|Add a clickable link to the left logo|
 |`header-logo-right-url`|Add a clickable link to the right logo|
 
-For more information, click [here](https://royfrancis.github.io/reveal-logo).
+For more information, click [here](https://royfrancis.github.io/quarto-reveal-logo).
 
 ## Acknowledgements
 
